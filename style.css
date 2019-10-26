@@ -64,4 +64,19 @@
         color: #f00;
         transition: color 0.5s ease;
     }
-    
+ 
+.f1
+{
+	border-top: 1px solid black;
+	width: 100%;
+	text-align: center;
+	color:black;
+	font-size: 25px;
+	margin-top:30px;
+}    
+.fot
+{
+	background-color: red;
+	width: 33.333333%;
+	float:left;
+}
