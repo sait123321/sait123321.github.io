@@ -1,136 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
-<head>
-  <title>123</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  
-  
-</head>
-<body>
-<img class="logo" src="logo.svg">
-<div id="navigation">
-     	<ul id="men">
-            <li><a href="#">Я хочу дизайн</a></li>
-            <li><a href="#">Я хочу упаковку</a></li>
-            <li><a href="#">3</a></li>
-            <li style="float:right;"><a href="tel: 88005553535">88005553535</a></li>
-     	</ul>
-</div>  
 
-
-<div class="q1">
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
+  <head>
     
-    <div class="carousel-inner">
-      <div class="item active">
-        <img class="im" src="1111111111111111111111111111.jpg" alt="1" style="width:100%; max-height: 100%;">
-      </div>
-
-      <div class="item">
-        <img class="im" src="22222222222222222222.jpg" alt="2" style="width:100%;">
-      </div>
+    <meta charset="utf-8">
     
-      <div class="item">
-        <img class="im" src="333333333333333.jpg" alt="3" style="width:100%;">
-      </div>
-    </div>
+    <link rel="stylesheet" href="source/stylesheet/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    <title>Индекс</title>
+
+  </head>
+
+  <body>
+    
+    <div class="container">
+
+      <div class="row">
+
+          <div class="col">
+          </div>
+
+          <div class="col-12">
+
+            <h1 class="qqq">Добро пожаловать!</h1>
+            <p class="q1">Наши специалисты в настоящий момент работают над сайтом, но обещаем, это ненадолго. Пока что вы можете: <a href="#">загрузить</a> презентацию продуктов<br>и услуг нашей компании; или <a href="">оставить</a> свои контакты, чтобы наш агент мог связаться с вами. А ещё лучше — <a href="">приезжайте</a> к нам в офис.</p>
+
+            <div class="card bg-dark text-white">
+  <img class="card-img" src="..." alt="Card image">
+  <div class="card-img-overlay">
+    <button type="button" class="btn btn-primary btn-sm">Презентация в формате PDF</button>
   </div>
+</div><br>
+
+          </div>
+
+          <div class="col">
+          </div>
+
+      </div>
+
+    </div>
+<div class="jumbotron">
+    <div class="container">
+
+      <div class="row">
+
+          <div class="col">
+          </div>
+
+          <div class="col-12"> 
+          <form action="mail.php" method="post">                 
+			<div class="goodpack-form">
+							<div class="form-row">
+								<div class="col">
+									<input type="text" name="name" class="form-control" placeholder="Фамилия">
+								</div>
+								<div class="col">
+									<input type="text" name="sname" class="form-control" placeholder="Имя">
+								</div>
+								<div class="col">
+									<input type="text" name="otch" class="form-control" placeholder="Отчество">
+								</div>
+							</div>
+											<input type="text" name="comp" class="form-control" id="exampleFormControlInput1" placeholder="Название компании, которую вы представляете">
+							<div class="form-row">
+								<div class="col">
+									<input type="text" name="phone" class="form-control" placeholder="Номер телефона">
+								</div>
+								
+								<div class="col">
+								<select class="custom-select" name="sel" id="inlineFormCustomSelectPref">
+			    <option selected>Мне удобно принять звонок в промежутке...</option>
+			    <option value="9-12">Мне удобно принять звонок с 9:00 до 12:00</option>
+			    <option value="13-16">Мне удобно принять звонок с 13:00 до 16:00</option>
+			    <option value="16-20">Мне удобно принять звонок с 16:00 до 20:00</option>
+			  </select>
+								</div>
+								<div class="col">
+									<input type="text" name="email" class="form-control" placeholder="Адрес электронной почты">
+								</div>
+							</div>
+
+			           		<textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="4" placeholder="Вы можете написать здесь всё, что захотите, мы обязательно прочтём"></textarea>
+                    <textarea class="form-control" style="display: none;" name="spam" rows="3"></textarea>
+
+			</div>
+
+			<center><input id="otpr" class="btn btn-primary btn-lg" type="submit" value="Отправить" name="btn_submit" /></center>
+    </form>
 </div>
 
+          </div>
 
-<div class="container q2">
-	<h1 style="margin-bottom: 30px; text-align: center;">Оставить заявку</h1>
-<div class="row">
-<div class="col-md-4"> </div>
-<div class="col-md-4">
-   <form action="./mail.php" method="post">
-<div class="form-group">
-   <label for="name">Ваше имя:</label>
-   <input type="name" name="name" class="form-control" id="name" placeholder="Name">
-</div>
-<div class="form-group">
-   <label for="name">Ваша фамилия:</label>
-   <input type="name" name="fam" class="form-control" id="fam" placeholder="Surname">
-</div>
-<div class="form-group">
-   <label for="name">Компания:</label>
-   <input type="name" name="comp" class="form-control" id="comp" placeholder="Company">
-</div>
-<div class="form-group">
-   <label for="email1">E-mail:</label>
-   <input type="email" name="email" class="form-control" id="email1" placeholder="Email">
-</div>
-<div class="form-group">
-   <label for="phone">Номер телефона:</label>
-   <input type="phone" name="phone" class="form-control" id="phone" placeholder="Phone">
-</div>
-<div class="form-group">
-   <label for="message">Сообщение:</label>
-   <textarea class="form-control" name="message" rows="3"></textarea>
-</div>
-   <button type="submit" class="btn btn-info">Отправить сообщение</button>
-</form>
-</div>
-<div class="col-md-4"></div> 
-</div>
-</div>
+          
+
+      </div>
+
+    </div>
+<div style="color: #75787B;">
+<p align="center">Услуги предоставляет общество с ограниченной ответственностью «АсПак» под брендом GoodPack®.<br>ИНН: 2308238169. ОГРН: 1162375045887. Все права защищены, GoodPack® 2019.</p>
+  </div>
+
+  </body>
 
 
 
-
-<footer class="f1">
-	<div class="fot">
-		<p>OOO"АсПак"  </p>
-		<p>8(495) 198-19-18</p>
-	</div>
-	<div class="fot">
-		<p>ИНН 2308238169</p>
-		<p>ОРГН 1162375045887</p>
-	</div>
-	<div class="fot">
-		<p>г.Москва ул.Большая Черемушкинская</p>
-		<p>д.34 офис 215</p>
-	</div>
-
-</footer> 
-
-
-<script type="text/javascript">
-	$("#myCarousel").carousel({
-		interval: 1500,
-		pause: false
-	});
-	$(".im").height($(window).height()-100); 
-	$(".im").width($(window).width()); 	
-</script>
-</body>
 </html>
-
-

@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'PT Sans';
+  src: url('source/fonts/01.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PT Sans';
+  src: url('source/fonts/03.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PT Sans';
+  src: url('source/fonts/02.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'PT Sans';
+  src: url('source/fonts/04.ttf');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'PT Serif';
+  src: url('source/fonts/05.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PT Serif';
+  src: url('source/fonts/07.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PT Serif';
+  src: url('source/fonts/06.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'PT Serif';
+  src: url('source/fonts/08.ttf');
+  font-weight: bold;
+  font-style: italic;
+}
+.qqq
+{
+  font-family: PT Sans;
+  
+}
+#otpr
+{
+  margin-top: 30px;
+}
